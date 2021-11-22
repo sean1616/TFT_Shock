@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFT_Shock_Cmd", "TFT_Shock_Cmd\TFT_Shock_Cmd.csproj", "{29A8A82C-8158-4A49-80DA-8DC11157C52B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A8A82C-8158-4A49-80DA-8DC11157C52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A8A82C-8158-4A49-80DA-8DC11157C52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A8A82C-8158-4A49-80DA-8DC11157C52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A8A82C-8158-4A49-80DA-8DC11157C52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A8C9CA5-E499-4C0F-BC94-90B9D27A4C26}
+	EndGlobalSection
+EndGlobal

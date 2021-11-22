@@ -1,0 +1,77 @@
+﻿<Window x:Class="TFT_Shock_Cmd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TFT_Shock_Cmd"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="80.526"
+        Width="847.368">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="10*" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="combox_comport"
+                  Grid.Row="1"
+                  Grid.Column="1"
+                  DropDownClosed="combox_comport_DropDownClosed"
+                  DropDownOpened="ComBox_Com_DropDownOpened"
+                  HorizontalContentAlignment="Center"
+                  VerticalContentAlignment="Center"
+                  SelectedIndex="0" />
+        <Button x:Name="btn_connect"
+                Grid.Column="2" Content="Connect" Click="btn_connect_Click"
+                Grid.Row="1"></Button>
+
+        <Label Content="DUT Batch"
+               Grid.Row="1"
+               Grid.Column="4"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center" />
+        <ComboBox x:Name="ComBox_DUT_Batch"
+                  Grid.Row="1"
+                  Grid.Column="5"
+                  HorizontalContentAlignment="Center"
+                  VerticalContentAlignment="Center"
+                  DropDownClosed="ComBox_DUT_WL_DropDownClosed"
+                  SelectedIndex="0" />
+        <Label Content="TLS WL"
+               Grid.Row="1"
+               Grid.Column="6"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center" />
+        <ComboBox x:Name="ComBox_TLS_WL"
+                  Grid.Row="1"
+                  Grid.Column="7"
+                  HorizontalContentAlignment="Center"
+                  VerticalContentAlignment="Center"
+                  SelectedIndex="0" />
+        <Label Content="Quick Cmd"
+               Grid.Row="1"
+               Grid.Column="8"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center" />
+        <ComboBox x:Name="ComBox_All"
+                  Grid.Row="1"
+                  Grid.Column="9"
+                  HorizontalContentAlignment="Center"
+                  VerticalContentAlignment="Center"
+                  SelectedIndex="0" />
+    </Grid>
+</Window>
